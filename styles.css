@@ -91,7 +91,8 @@ body {
 
 .datatable__field-value {
     margin-bottom: 0;
-    font-size: 34px; }
+    font-size: 14px;
+    align-items: left;  }
 
 .datatable__row-section {
     border: none;
