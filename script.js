@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://sleepy-eyrie-16788.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://sleepy-eyrie-16788.herokuapp.com/v1/trello/';
+  const apiRoot = 'http://localhost:8080/moje/v1/task/';
+  const trelloApiRoot = 'http://localhost:8080/moje/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
