@@ -1,6 +1,11 @@
 $(document).ready(function() {
+<<<<<<< HEAD
   const apiRoot = 'https://localhost:8080/v1/task/';
   const trelloApiRoot = 'https://localhost:8080/v1/trello/';
+=======
+  const apiRoot = 'https://sleepy-eyrie-16788.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://sleepy-eyrie-16788.herokuapp.com/v1/trello/';
+>>>>>>> 05df215aef960281bd5e2555a4cdf3ab40739fbe
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
