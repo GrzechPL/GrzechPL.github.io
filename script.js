@@ -1,8 +1,5 @@
 $(document).ready(function() {
-<<<<<<< HEAD
-=======
 
->>>>>>> 0477ea281da8c84b19648f38b4e5df390d17fa00
   const apiRoot = 'http://sleepy-eyrie-16788.herokuapp.com/v1/task/';
   const trelloApiRoot = 'http://sleepy-eyrie-16788.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
