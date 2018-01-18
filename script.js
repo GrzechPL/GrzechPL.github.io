@@ -85,7 +85,7 @@ $(document).ready(function() {
     var taskId = parentEl.attr('data-task-id');
     var taskTitle = parentEl.find('[data-task-name-input]').val();
     var taskContent = parentEl.find('[data-task-content-input]').val();
-    var requestUrl = apiRoot + 'updateTask';
+    var requestUrl = apiRoot + 'updateTasks';
 
     $.ajax({
       url: requestUrl,
